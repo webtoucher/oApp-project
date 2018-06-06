@@ -1,0 +1,30 @@
+{
+  "name": "webtoucher/oApp-project",
+  "description": "A project based on the oApp",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Alexey Kuznetsov",
+      "email": "mirakuru@webtoucher.ru"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "~7.2",
+    "oapp/core": "dev-master"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master",
+    "yiisoft/yii2-debug": "2.0.13",
+    "yiisoft/yii2-faker": "2.0.4",
+    "codeception/codeception": "2.4.2",
+    "codeception/specify": "1.1",
+    "codeception/verify": "1.0.0"
+  },
+  "config": {
+    "process-timeout": 1800,
+    "fxp-asset": {
+      "enabled": false
+    }
+  }
+}
